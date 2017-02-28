@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Zone protégé par un mot de passe. Mot de passe crypter :D"
+AuthUserFile C:\\laragon\\www\\cinemal13\\admin/.htpasswd
+Require valid-user

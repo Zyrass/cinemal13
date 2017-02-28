@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">Cinema L13</a>
+            <a class="navbar-brand" href="index.php"><span class="text-danger">Cinema L13</span></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,11 +19,11 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Films <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="moviesUS.php">Film US</a></li>
-                        <li><a href="moviesFR.php">Film FR</a></li>
+                        <li><a href="moviesUS.php">Liste des films US </a></li>
+                        <li><a href="moviesFR.php">Liste des films FR </a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="top.php">Le Top 5</a></li>
-                        <li><a href="flop.php">Listes des Flop</a></li>
+                        <li><a href="top.php">Top 10 des meilleurs films</a></li>
+                        <li><a href="flop.php">Top 5 des mauvais films</a></li>
                     </ul>
                 </li>
             </ul>
@@ -32,11 +32,11 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Administration <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Gestion Acteurs</a></li>
+                        <li><a href="admin/actors/view_actors.php">Gestion Acteurs</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Gestion Réalisateurs</a></li>
+                        <li><a href="admin/directors/view_directors.php">Gestion Réalisateurs</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Gestion Films</a></li>
+                        <li><a href="admin/movies/view_movies.php">Gestion Films</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Déconnexion</a></li>

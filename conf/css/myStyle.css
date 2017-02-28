@@ -1,7 +1,16 @@
 @charset "UTF-8";
 body {
     box-sizing: border-box;
+    background-image: url("../../img/bgDark.png");
+    background-repeat: repeat;
 }
+/**
+ *
+ */
+.navbar, footer {
+    box-shadow: 0px 0px 10px #fff;
+}
+
 /**
  * Header
  */
@@ -18,16 +27,34 @@ main {
 main section {
     margin: 40px 0;
 }
+/**
+ * Table
+ */
+table {
+    box-shadow: 0px 0px 10px #fff;
+}
+table thead tr th {
+    background-color: #111;
+    color: #aaa;
+}
+table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+.tdStyle {
+    font-size: 1.5em;
+    font-weight: 500;
+    padding-top: 35px !important;
+}
+
 
 /**
  * Footer
  */
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color: #333;
     height: 50px;
+    margin: 70px 0 0 0;
 }
 footer p {
     line-height: 50px;

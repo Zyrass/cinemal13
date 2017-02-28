@@ -11,7 +11,7 @@ include_once 'conf/include/header.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <h1 class="text-center">Cinema L13</h1>
+                <h1 class="text-center text-warning">Cinema L13</h1>
                 <h2 class="text-center"><small>BDD utilisé pour tous ces films : cinemal9</small></h2>
             </div> <!-- Fin col-xs-12 -->
         </div> <!-- Fin row -->
@@ -22,7 +22,7 @@ include_once 'conf/include/header.php'; ?>
     <section>
         <div class="container">
             <div class="row">
-                <legend class="text-center">Moteur de recherche</legend>
+                <legend class="text-center text-primary">Moteur de recherche</legend>
                 <div class="col-md-8">
                     <form action="search.php?">
                         <div class="form-group">
@@ -30,7 +30,7 @@ include_once 'conf/include/header.php'; ?>
                         </div>
                 </div> <!-- Fin col-md-8 -->
                 <div class="col-md-4">
-                        <input type="submit" value="Rechercher" class="btn btn-block btn-default">
+                        <input type="submit" value="Rechercher" class="btn btn-block btn-primary">
                     </form>
                 </div> <!-- Fin col-md-4 -->
             </div> <!-- Fin row -->
@@ -40,7 +40,7 @@ include_once 'conf/include/header.php'; ?>
     <section>
         <div class="container-fluid">
             <div class="row">
-                <legend class="text-center">Les 3 derniers films insérés dans la base de donnée.</legend>
+                <legend class="text-center text-primary">Les 3 derniers films insérés dans la base de donnée.</legend>
                 <?php foreach ($lastMovies as $value) : ?>
                 <div class="col-md-4">
                     <div class="panel panel-default">
